@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="DI_my_personal_schedule">fd03af9ddb97ef00810adb184b961912</data_item>
+        <dependency_fields>name,type</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","studio_template_field_id":"E1","TextColor":"#293E40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"medium","Size":18},"CellId":"name"},{"Type":"Text","Margin":{"Top":7},"studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":16},"CellId":"type"},{"Type":"Text","Margin":{"Top":7},"studio_template_field_id":"E3","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13}}],"studio_card_id":"fff9601173c12300d396c8168bf6a7fa"}</item_view_json>
+        <name>TIme off basic view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-28 22:28:29</sys_created_on>
+        <sys_id>929c2755dbd7ef00810adb184b9619b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TIme off basic view</sys_name>
+        <sys_package display_value="Time off request" source="x_snc_time_off_req">b3fe1799db97ef00810adb184b9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time off request">b3fe1799db97ef00810adb184b9619cf</sys_scope>
+        <sys_update_name>sys_sg_item_view_929c2755dbd7ef00810adb184b9619b5</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-28 22:30:33</sys_updated_on>
+        <ui_styles>1d1caf15dbd7ef00810adb184b961915,3bfaa315dbd7ef00810adb184b96193b,91ebab15dbd7ef00810adb184b961966</ui_styles>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=929c2755dbd7ef00810adb184b9619b5"/>
+</record_update>

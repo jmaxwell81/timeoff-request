@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="clock">1bcf93d9db97ef00810adb184b9619e2</icon>
+        <item_view display_value="TIme off basic view">929c2755dbd7ef00810adb184b9619b5</item_view>
+        <name>Time off details</name>
+        <order/>
+        <parent>6478e791dbd7ef00810adb184b961957</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>sush.chan</sys_created_by>
+        <sys_created_on>2019-01-28 22:26:12</sys_created_on>
+        <sys_id>945c6355dbd7ef00810adb184b96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Time off details</sys_name>
+        <sys_package display_value="Time off request" source="x_snc_time_off_req">b3fe1799db97ef00810adb184b9619cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time off request">b3fe1799db97ef00810adb184b9619cf</sys_scope>
+        <sys_update_name>sys_sg_details_screen_945c6355dbd7ef00810adb184b96194d</sys_update_name>
+        <sys_updated_by>sush.chan</sys_updated_by>
+        <sys_updated_on>2019-01-28 22:28:34</sys_updated_on>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=945c6355dbd7ef00810adb184b96194d"/>
+</record_update>
