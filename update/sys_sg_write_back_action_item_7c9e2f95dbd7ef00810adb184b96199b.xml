@@ -7,6 +7,19 @@
 	var endtime = input.end;
 	var schedule;
 	
+if(input.all_day){
+	var gdt = new GlideDateTime(input.start);
+	startime = 	new GlideDateTime(gdt.getLocalDate());
+	startime = startime.toString();
+	gs.info(startime);
+	
+	var gdt2 = new GlideDateTime(input.end);
+	endtime = 	new GlideDateTime(gdt2.getLocalDate());
+	endtime.addDaysLocalTime(1);
+	endtime = 	endtime.toString();
+	gs.info(endtime);
+}	
+	
 
 	var ae= new GlideRecord("agent_events");
 	ae.addQuery("user", gs.getUserID());
@@ -32,14 +45,14 @@
         <sys_created_by>sush.chan</sys_created_by>
         <sys_created_on>2019-01-28 22:36:23</sys_created_on>
         <sys_id>7c9e2f95dbd7ef00810adb184b96199b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Time off Action Item</sys_name>
         <sys_package display_value="Time off request" source="x_snc_time_off_req">b3fe1799db97ef00810adb184b9619cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Time off request">b3fe1799db97ef00810adb184b9619cf</sys_scope>
         <sys_update_name>sys_sg_write_back_action_item_7c9e2f95dbd7ef00810adb184b96199b</sys_update_name>
         <sys_updated_by>sush.chan</sys_updated_by>
-        <sys_updated_on>2019-01-28 22:36:23</sys_updated_on>
+        <sys_updated_on>2019-01-29 19:24:34</sys_updated_on>
         <table/>
         <template/>
         <type>script</type>
